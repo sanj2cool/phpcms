@@ -2,9 +2,9 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.16  netmask 255.255.255.0  broadcast 192.168.1.255
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 2162436  bytes 343969969 (343.9 MB)
-        RX errors 0  dropped 1219069  overruns 0  frame 0
-        TX packets 679984  bytes 175825565 (175.8 MB)
+        RX packets 2163436  bytes 344068329 (344.0 MB)
+        RX errors 0  dropped 1219669  overruns 0  frame 0
+        TX packets 680223  bytes 175846108 (175.8 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
@@ -20,9 +20,9 @@ wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.11  netmask 255.255.255.0  broadcast 192.168.1.255
         inet6 fe80::52e8:60d:93bb:5f56  prefixlen 64  scopeid 0x20<link>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 2873713  bytes 2410286067 (2.4 GB)
+        RX packets 2874145  bytes 2410319860 (2.4 GB)
         RX errors 0  dropped 2  overruns 0  frame 0
-        TX packets 1863464  bytes 820873092 (820.8 MB)
+        TX packets 1863565  bytes 820882526 (820.8 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlx00e020302722: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
