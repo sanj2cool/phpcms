@@ -2,34 +2,33 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.16  netmask 255.255.255.0  broadcast 192.168.1.255
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 2496452  bytes 462156286 (462.1 MB)
-        RX errors 0  dropped 1373270  overruns 0  frame 0
-        TX packets 797625  bytes 197730532 (197.7 MB)
+        RX packets 2497571  bytes 462278783 (462.2 MB)
+        RX errors 0  dropped 1373870  overruns 0  frame 0
+        TX packets 797965  bytes 197776810 (197.7 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 250664  bytes 109968365 (109.9 MB)
+        RX packets 250672  bytes 109968845 (109.9 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 250664  bytes 109968365 (109.9 MB)
+        TX packets 250672  bytes 109968845 (109.9 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.11  netmask 255.255.255.0  broadcast 192.168.1.255
         inet6 fe80::52e8:60d:93bb:5f56  prefixlen 64  scopeid 0x20<link>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 2945691  bytes 2417569918 (2.4 GB)
+        RX packets 2946381  bytes 2417651114 (2.4 GB)
         RX errors 0  dropped 2  overruns 0  frame 0
-        TX packets 1889148  bytes 823310372 (823.3 MB)
+        TX packets 1889248  bytes 823319888 (823.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlx00e020302722: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 192.168.31.177  netmask 255.255.255.0  broadcast 192.168.31.255
+        inet6 2409:40d7:47:749d:f5b:977e:4c8c:948  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::23a9:94b2:d4d8:a54d  prefixlen 64  scopeid 0x20<link>
-        inet6 2409:40d7:40:d78e:6ae5:7981:8c34:cddb  prefixlen 64  scopeid 0x0<global>
-        inet6 2409:40d7:40:d78e:44ef:3caf:bdf8:7a6f  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:40d7:47:749d:7ae2:6d45:e27f:a214  prefixlen 64  scopeid 0x0<global>
         ether 00:e0:20:30:27:22  txqueuelen 1000  (Ethernet)
         RX packets 0  bytes 0 (0.0 B)
         RX errors 0  dropped 0  overruns 0  frame 0
