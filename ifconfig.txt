@@ -2,29 +2,29 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.16  netmask 255.255.255.0  broadcast 192.168.1.255
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 674790  bytes 101253207 (101.2 MB)
-        RX errors 0  dropped 437204  overruns 0  frame 0
-        TX packets 183040  bytes 45327642 (45.3 MB)
+        RX packets 675492  bytes 101318291 (101.3 MB)
+        RX errors 0  dropped 437804  overruns 0  frame 0
+        TX packets 183144  bytes 45346236 (45.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 8899  bytes 4988296 (4.9 MB)
+        RX packets 8900  bytes 4988369 (4.9 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 8899  bytes 4988296 (4.9 MB)
+        TX packets 8900  bytes 4988369 (4.9 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-wlo1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.31.179  netmask 255.255.255.0  broadcast 192.168.31.255
         inet6 2409:40d7:48:3c81:b998:ba4d:caa4:fd8c  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::df59:b0e2:f78f:6bf8  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:48:3c81:56b6:232c:777b:6b8c  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 850831  bytes 881261642 (881.2 MB)
+        RX packets 851274  bytes 881328217 (881.3 MB)
         RX errors 0  dropped 21  overruns 0  frame 0
-        TX packets 597118  bytes 113250542 (113.2 MB)
+        TX packets 597805  bytes 113356976 (113.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlx00e020302722: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
