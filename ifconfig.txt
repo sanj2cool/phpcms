@@ -1,9 +1,8 @@
 eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
         RX packets 660539  bytes 99754624 (99.7 MB)
         RX errors 0  dropped 428349  overruns 0  frame 0
-        TX packets 166084  bytes 27385703 (27.3 MB)
+        TX packets 166183  bytes 27405437 (27.4 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
@@ -16,13 +15,21 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.31.179  netmask 255.255.255.0  broadcast 192.168.31.255
+        inet6 2409:40d7:48:3c81:b998:ba4d:caa4:fd8c  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::df59:b0e2:f78f:6bf8  prefixlen 64  scopeid 0x20<link>
+        inet6 2409:40d7:48:3c81:56b6:232c:777b:6b8c  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 790765  bytes 843436184 (843.4 MB)
+        RX packets 791831  bytes 843622113 (843.6 MB)
         RX errors 0  dropped 15  overruns 0  frame 0
-        TX packets 538120  bytes 85150881 (85.1 MB)
+        TX packets 539184  bytes 85317114 (85.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-wlx00e020302722: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+wlx00e020302722: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.31.178  netmask 255.255.255.0  broadcast 192.168.31.255
+        inet6 fe80::23a9:94b2:d4d8:a54d  prefixlen 64  scopeid 0x20<link>
+        inet6 2409:40d7:48:3c81:9e5b:aa98:2742:52d1  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:40d7:48:3c81:d507:7763:7c62:387c  prefixlen 64  scopeid 0x0<global>
         ether 00:e0:20:30:27:22  txqueuelen 1000  (Ethernet)
         RX packets 0  bytes 0 (0.0 B)
         RX errors 0  dropped 0  overruns 0  frame 0
