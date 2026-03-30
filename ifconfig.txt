@@ -20,8 +20,8 @@ wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:50:cb7d:dbc2:eac6:9b1b:9657  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::df59:b0e2:f78f:6bf8  prefixlen 64  scopeid 0x20<link>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 11773647  bytes 4173341188 (4.1 GB)
+        RX packets 11775566  bytes 4173742073 (4.1 GB)
         RX errors 0  dropped 163439  overruns 0  frame 0
-        TX packets 4343911  bytes 924582619 (924.5 MB)
+        TX packets 4346144  bytes 925738394 (925.7 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
