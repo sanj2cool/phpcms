@@ -9,9 +9,9 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 69152  bytes 30618804 (30.6 MB)
+        RX packets 69154  bytes 30619141 (30.6 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 69152  bytes 30618804 (30.6 MB)
+        TX packets 69154  bytes 30619141 (30.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -20,8 +20,8 @@ wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:1067:1e8:eb55:f0a:84d2:cc63  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:1067:1e8:8916:8a3a:320f:1227  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 12155853  bytes 4440346948 (4.4 GB)
+        RX packets 12156555  bytes 4440472006 (4.4 GB)
         RX errors 0  dropped 163441  overruns 0  frame 0
-        TX packets 4663849  bytes 991174948 (991.1 MB)
+        TX packets 4664303  bytes 991258989 (991.2 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
