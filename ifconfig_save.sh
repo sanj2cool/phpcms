@@ -5,7 +5,7 @@ IPV6_FILE="/opt/phpcms/ipv6.txt"
 OLD_IPV6_FILE="/opt/phpcms/ipv6_old.txt"
 
 # Get IPv4
-ip -4 addr show scope global | grep inet | awk '{print $2}' | cut -d/ -f1
+ip -4 addr show scope global | grep inet | awk '{print $2}' | cut -d/ -f1 > "$IPV4_FILE"
 
 # Get global IPv6
 ip -6 addr show scope global | grep inet6 | awk '{print $2}' | cut -d/ -f1 > "$IPV6_FILE"
@@ -20,6 +20,9 @@ if [ -f "$OLD_IPV6_FILE" ]; then
 else
     echo "FIRST_RUN" > /opt/phpcms/status.txt
 fi
+
+OUTPUT="/opt/phpcms/ifconfig.txt"
+/sbin/ifconfig > "$OUTPUT"
 
 # Save current as old
 cp "$IPV6_FILE" "$OLD_IPV6_FILE"
