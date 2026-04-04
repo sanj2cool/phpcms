@@ -1,7 +1,14 @@
 #!/bin/bash
 
-cd /opt/phpcms || exit 1
+STATUS=$(cat /opt/phpcms/status.txt)
 
-git add ifconfig.txt
-git commit -m "Auto update ifconfig $(date '+%Y-%m-%d %H:%M:%S')" || exit 0
-git push origin main
+if [ "$STATUS" != "CHANGED" ]; then
+    echo "No IPv6 change. Skipping push."
+    exit 0
+fi
+
+cd /opt/phpcms || exit
+
+git add .
+git commit -m "IPv6 changed: $(date)"
+git push
