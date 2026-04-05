@@ -6,28 +6,24 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:106b:842e:ae22:f506:4236:a8a0  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 2278160  bytes 429375260 (429.3 MB)
-        RX errors 0  dropped 461994  overruns 0  frame 0
-        TX packets 509355  bytes 56705945 (56.7 MB)
+        RX packets 2341754  bytes 435005596 (435.0 MB)
+        RX errors 0  dropped 481300  overruns 0  frame 0
+        TX packets 527429  bytes 58550192 (58.5 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 2303  bytes 981077 (981.0 KB)
+        RX packets 2353  bytes 987241 (987.2 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 2303  bytes 981077 (981.0 KB)
+        TX packets 2353  bytes 987241 (987.2 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
-        inet 192.168.1.25  netmask 255.255.255.0  broadcast 192.168.1.255
-        inet6 2409:40d7:106d:983a:7469:a1eb:1b2d:69ae  prefixlen 64  scopeid 0x0<global>
-        inet6 2409:40d7:106d:983a:8371:af49:30a5:70cf  prefixlen 64  scopeid 0x0<global>
-        inet6 fe80::df59:b0e2:f78f:6bf8  prefixlen 64  scopeid 0x20<link>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 418838  bytes 143811109 (143.8 MB)
-        RX errors 0  dropped 7255  overruns 0  frame 0
-        TX packets 155533  bytes 29264881 (29.2 MB)
+        RX packets 449053  bytes 146097975 (146.0 MB)
+        RX errors 0  dropped 8224  overruns 0  frame 0
+        TX packets 161534  bytes 30508579 (30.5 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
