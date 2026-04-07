@@ -4,28 +4,28 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:58:7b4d:a757:8673:ccae:eef0  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:58:7b4d:78a0:f4d2:4b5:1fd5  prefixlen 64  scopeid 0x0<global>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 589389  bytes 106077525 (106.0 MB)
-        RX errors 0  dropped 131302  overruns 0  frame 0
-        TX packets 113751  bytes 64384845 (64.3 MB)
+        RX packets 664798  bytes 167388906 (167.3 MB)
+        RX errors 0  dropped 134088  overruns 0  frame 0
+        TX packets 180475  bytes 124299607 (124.2 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 5694  bytes 3393686 (3.3 MB)
+        RX packets 6006  bytes 3588651 (3.5 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 5694  bytes 3393686 (3.3 MB)
+        TX packets 6006  bytes 3588651 (3.5 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.31.177  netmask 255.255.255.0  broadcast 192.168.31.255
-        inet6 2409:40d7:58:7b4d:d9b3:d762:29b4:971a  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::df59:b0e2:f78f:6bf8  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:58:7b4d:4641:9794:971d:5a46  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:40d7:58:7b4d:d27e:e611:79ad:bf7d  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 60976  bytes 6189242 (6.1 MB)
+        RX packets 63235  bytes 6586740 (6.5 MB)
         RX errors 0  dropped 1759  overruns 0  frame 0
-        TX packets 15572  bytes 3827675 (3.8 MB)
+        TX packets 16643  bytes 4010496 (4.0 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
