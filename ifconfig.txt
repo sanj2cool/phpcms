@@ -3,28 +3,28 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:49:de42:f214:d01:1611:a750  prefixlen 64  scopeid 0x0<global>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 280045  bytes 127478752 (127.4 MB)
-        RX errors 0  dropped 92054  overruns 0  frame 0
-        TX packets 222882  bytes 48516543 (48.5 MB)
+        RX packets 438026  bytes 160520092 (160.5 MB)
+        RX errors 0  dropped 92187  overruns 0  frame 0
+        TX packets 229514  bytes 49439999 (49.4 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 57963  bytes 17748177 (17.7 MB)
+        RX packets 64119  bytes 18467880 (18.4 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 57963  bytes 17748177 (17.7 MB)
+        TX packets 64119  bytes 18467880 (18.4 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.31.178  netmask 255.255.255.0  broadcast 192.168.31.255
         inet6 fe80::df59:b0e2:f78f:6bf8  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:49:de42:fcde:e715:23a1:ba54  prefixlen 64  scopeid 0x0<global>
-        inet6 2409:40d7:49:de42:ab29:3653:e982:895e  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:40d7:49:de42:1111:179c:ee5d:3338  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 1317627  bytes 1402711441 (1.4 GB)
-        RX errors 0  dropped 7  overruns 0  frame 0
-        TX packets 916626  bytes 167874337 (167.8 MB)
+        RX packets 1453510  bytes 1426494904 (1.4 GB)
+        RX errors 0  dropped 97  overruns 0  frame 0
+        TX packets 921714  bytes 168918914 (168.9 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
