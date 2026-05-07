@@ -3,29 +3,31 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:5c:80cb:d4f6:4e:c235:c827  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:5c:80cb:18ad:c4bd:9292:df17  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:40d7:5c:80cb:e50a:da65:c6fa:2cb0  prefixlen 64  scopeid 0x0<global>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 2471708  bytes 1210289805 (1.2 GB)
-        RX errors 0  dropped 31733  overruns 0  frame 0
-        TX packets 1318777  bytes 161281381 (161.2 MB)
+        RX packets 2687696  bytes 1356266211 (1.3 GB)
+        RX errors 0  dropped 34402  overruns 0  frame 0
+        TX packets 1428129  bytes 172476053 (172.4 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 1187  bytes 131295 (131.2 KB)
+        RX packets 1269  bytes 140765 (140.7 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 1187  bytes 131295 (131.2 KB)
+        TX packets 1269  bytes 140765 (140.7 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.31.178  netmask 255.255.255.0  broadcast 192.168.31.255
         inet6 2409:40d7:5c:80cb:d886:bc55:8ebf:d6f2  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:40d7:5c:80cb:cb05:3874:c9b2:785f  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::df59:b0e2:f78f:6bf8  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:5c:80cb:c8a8:4775:6639:6418  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 607614  bytes 111960238 (111.9 MB)
-        RX errors 0  dropped 64  overruns 0  frame 0
-        TX packets 534189  bytes 85568644 (85.5 MB)
+        RX packets 647708  bytes 119237429 (119.2 MB)
+        RX errors 0  dropped 65  overruns 0  frame 0
+        TX packets 575498  bytes 92065959 (92.0 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
