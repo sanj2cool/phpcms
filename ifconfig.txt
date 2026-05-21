@@ -3,19 +3,20 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:55:e860:9000:c82:6936:9fbf  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:55:e860:5c1f:17a3:884f:cc24  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:40d7:55:e860:6efa:1efb:41bb:30af  prefixlen 64  scopeid 0x0<global>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 6983537  bytes 4933123090 (4.9 GB)
-        RX errors 0  dropped 74049  overruns 0  frame 0
-        TX packets 3776142  bytes 622548552 (622.5 MB)
+        RX packets 7255886  bytes 5253353004 (5.2 GB)
+        RX errors 0  dropped 74083  overruns 0  frame 0
+        TX packets 3963164  bytes 701096378 (701.0 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 14475  bytes 1586457 (1.5 MB)
+        RX packets 15855  bytes 1750716 (1.7 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 14475  bytes 1586457 (1.5 MB)
+        TX packets 15855  bytes 1750716 (1.7 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -26,8 +27,8 @@ wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:55:e860:1c64:4424:b8df:a4ff  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:55:e860:2db4:d2c5:ae95:8fef  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 1333528  bytes 239672801 (239.6 MB)
+        RX packets 1340965  bytes 241185102 (241.1 MB)
         RX errors 0  dropped 156  overruns 0  frame 0
-        TX packets 1181095  bytes 190937335 (190.9 MB)
+        TX packets 1183570  bytes 191211732 (191.2 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
