@@ -8,18 +8,18 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:106c:8fb0:af22:d06d:db21:86ea  prefixlen 64  scopeid 0x0<global>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 14707400  bytes 12671447558 (12.6 GB)
+        RX packets 14713642  bytes 12672688317 (12.6 GB)
         RX errors 0  dropped 18994  overruns 0  frame 0
-        TX packets 8111234  bytes 1472506083 (1.4 GB)
+        TX packets 8115292  bytes 1473248818 (1.4 GB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 321677  bytes 182802738 (182.8 MB)
+        RX packets 321789  bytes 182844603 (182.8 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 321677  bytes 182802738 (182.8 MB)
+        TX packets 321789  bytes 182844603 (182.8 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -33,10 +33,9 @@ wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:106c:8fb0:a6d:a56d:fd67:b916  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:106c:8fb0:1c5:c794:3c86:d2d5  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:106c:8fb0:28ea:bad6:f85c:b5ed  prefixlen 64  scopeid 0x0<global>
-        inet6 2409:40d7:106c:8fb0:a463:6228:3eac:d61b  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 5163047  bytes 1044371092 (1.0 GB)
+        RX packets 5173113  bytes 1046221010 (1.0 GB)
         RX errors 0  dropped 2481  overruns 0  frame 0
-        TX packets 1782852  bytes 431866117 (431.8 MB)
+        TX packets 1785319  bytes 432527639 (432.5 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
