@@ -4,13 +4,12 @@ docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         ether fe:60:f8:6d:2a:c3  txqueuelen 0  (Ethernet)
         RX packets 111  bytes 14468 (14.4 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 14049  bytes 3197268 (3.1 MB)
+        TX packets 14169  bytes 3236670 (3.2 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.31.29  netmask 255.255.255.0  broadcast 192.168.31.255
         inet6 2409:40d7:1060:b7dd:dcad:61a0:c77:c7c3  prefixlen 64  scopeid 0x0<global>
-        inet6 2409:40d7:1060:b7dd:ae95:6ca5:9abc:4316  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:1060:b7dd:5b02:c56e:280e:8368  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:1060:b7dd:7c11:5afd:1530:3191  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:1060:b7dd:3c2a:6f26:a00:10a3  prefixlen 64  scopeid 0x0<global>
@@ -20,18 +19,18 @@ eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:1060:b7dd:d502:c3e3:fe51:86b1  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:1060:b7dd:42e3:9d5e:448c:2768  prefixlen 64  scopeid 0x0<global>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 9179405  bytes 6745087760 (6.7 GB)
+        RX packets 9225942  bytes 6754732871 (6.7 GB)
         RX errors 0  dropped 4324  overruns 0  frame 0
-        TX packets 6164717  bytes 1477202407 (1.4 GB)
+        TX packets 6223310  bytes 1493847869 (1.4 GB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 107405  bytes 50425024 (50.4 MB)
+        RX packets 108105  bytes 50688448 (50.6 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 107405  bytes 50425024 (50.4 MB)
+        TX packets 108105  bytes 50688448 (50.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 tailscale0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1280
@@ -39,9 +38,9 @@ tailscale0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1280
         inet6 fe80::d155:4435:4be7:eef  prefixlen 64  scopeid 0x20<link>
         inet6 fd7a:115c:a1e0::601:54cc  prefixlen 128  scopeid 0x0<global>
         unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
-        RX packets 151426  bytes 35979262 (35.9 MB)
+        RX packets 151794  bytes 36038284 (36.0 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 271023  bytes 63855946 (63.8 MB)
+        TX packets 271473  bytes 63891162 (63.8 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 vethe0141ba: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -49,7 +48,7 @@ vethe0141ba: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         ether 12:0f:f3:e3:d0:69  txqueuelen 0  (Ethernet)
         RX packets 111  bytes 16022 (16.0 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 15943  bytes 3987864 (3.9 MB)
+        TX packets 16099  bytes 4042716 (4.0 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -65,8 +64,8 @@ wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet6 2409:40d7:1060:b7dd:b25a:f4f5:493d:8f69  prefixlen 64  scopeid 0x0<global>
         inet6 2409:40d7:1060:b7dd:be8b:d719:b6c0:6e85  prefixlen 64  scopeid 0x0<global>
         ether 48:5a:b6:2b:7a:39  txqueuelen 1000  (Ethernet)
-        RX packets 785705  bytes 187942608 (187.9 MB)
+        RX packets 786117  bytes 188065012 (188.0 MB)
         RX errors 0  dropped 7  overruns 0  frame 0
-        TX packets 525829  bytes 136549836 (136.5 MB)
+        TX packets 526190  bytes 136657886 (136.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
