@@ -9,22 +9,21 @@ docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
 eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.31.29  netmask 255.255.255.0  broadcast 192.168.31.255
         inet6 2409:40d7:52:f93b:361a:545:db5e:ef35  prefixlen 64  scopeid 0x0<global>
-        inet6 2409:40d7:52:f93b:cb73:70c3:5997:f244  prefixlen 64  scopeid 0x0<global>
         inet6 fe80::eb8b:65b2:1d29:8fcc  prefixlen 64  scopeid 0x20<link>
         inet6 2409:40d7:52:f93b:17e8:c374:3d3a:7df3  prefixlen 64  scopeid 0x0<global>
         ether 22:a5:54:07:68:a8  txqueuelen 1000  (Ethernet)
-        RX packets 8423200  bytes 3807164911 (3.8 GB)
+        RX packets 8706571  bytes 3913560832 (3.9 GB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 5337031  bytes 990405781 (990.4 MB)
+        TX packets 5547205  bytes 1043082498 (1.0 GB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 72272  bytes 33241086 (33.2 MB)
+        RX packets 80099  bytes 36366316 (36.3 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 72272  bytes 33241086 (33.2 MB)
+        TX packets 80099  bytes 36366316 (36.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 tailscale0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1280
@@ -32,9 +31,9 @@ tailscale0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1280
         inet6 fd7a:115c:a1e0::601:54cc  prefixlen 128  scopeid 0x0<global>
         inet6 fe80::c111:8845:2327:df09  prefixlen 64  scopeid 0x20<link>
         unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
-        RX packets 250468  bytes 60934628 (60.9 MB)
+        RX packets 275366  bytes 66206578 (66.2 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 352407  bytes 153503376 (153.5 MB)
+        TX packets 380270  bytes 171507988 (171.5 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 wlo1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
